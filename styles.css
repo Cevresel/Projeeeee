@@ -1,0 +1,59 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e7d32; /* Koyu yeşil */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    background-color: #4caf50; /* Açık yeşil */
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
