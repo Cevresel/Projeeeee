@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Girişi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Veri Giriş Sayfası</h1>
+        <button onclick="goBack()">Geri Dön</button>
+    </header>
+    <main>
+        <form id="veriGirisiFormu">
+            <label for="kullaniciAdi">Kullanıcı Adı:</label>
+            <input type="text" id="kullaniciAdi" placeholder="Öğrenci Adı">
+            
+            <label for="okul">Okul Adı:</label>
+            <input type="text" id="okul" placeholder="Okul Adı">
+            
+            <label for="okulNo">Okul Numarası:</label>
+            <input type="number" id="okulNo" placeholder="Okul Numarası">
+            
+            <label for="atikTuru">Atık Türü:</label>
+            <select id="atikTuru">
+                <option value="kagit">Kağıt/Karton</option>
+                <option value="plastik">Plastik</option>
+                <option value="cam">Cam</option>
+                <option value="metal">Metal</option>
+                <option value="pil">Pil ve Elektronik Atıklar</option>
+            </select>
+            
+            <label for="atikKg">Atık Kilogramı:</label>
+            <input type="number" id="atikKg" placeholder="Atık Kilogramı">
+            
+            <button type="button" onclick="veriKaydet()">Kaydet</button>
+        </form>
+    </main>
+    <script src="veri-girisi.js"></script>
+</body>
+</html>
